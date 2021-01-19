@@ -108,7 +108,7 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
    nodemon server
    ```
 
-<h2 id="dependence">Dépendences NPM</h2></br>
+<h2 id="dependence" align="center">Dépendences NPM</h2></br>
 
 | Dependances NPM          | Description                                      | Documentation |
 |--------------------------|--------------------------------------------------|---------------|
@@ -122,3 +122,10 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 | mongoose-unique-validator| Validation de champs unique d'un Schéma Mongoose |[mongoose-unique-validator](https://www.npmjs.com/package/mongoose-unique-validator)       |
 | multer                   | Téléchargement de fichiers                       |[multer](https://www.npmjs.com/package/multer)       |
 | password-validator       | Valide Mot de passe selon spécifications         |[password-validator](https://www.npmjs.com/package/password-validator)       |
+
+
+<h2 id="contact" align="center">Contact</h2>
+
+Adresse Email : [mailto](www.kevin.audibert26@gmail.com)
+
+Lien du Projet: [https://github.com/KevinAudibert/So_Pekocko](https://github.com/KevinAudibert/So_Pekocko)
