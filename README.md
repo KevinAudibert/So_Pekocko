@@ -27,7 +27,7 @@
   </ol>
 </details>
 
-<h2 id="apropos">A propos du Site</h2>
+<h2 id="apropos" align="center">A propos du Site</h2>
 
 <p align="center"><img src="./images_readme/site.jpg" width="600px"></p>
 
@@ -45,7 +45,7 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 
 * [Node.JS](https://nodejs.org/en/blog/release/v14.15.1/) (version 14.15.1)
 
-<h3 id="#doc">Documentation</h3>
+<h3 id="doc">Documentation</h3>
 
 <p>Lors de la réalisation du site, plusieurs régles ont dût être respectées. Ci-dessous les différents documents.</p>
 
@@ -53,5 +53,12 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 
 * [Note de cadrage](./images_readme/P6_Note_cadrage.pdf)
 
-<h2 id="demarrage">Démarrage</h2>
+<h2 id="demarrage" align="center">Démarrage</h2>
 
+<h3 id="prerequis">Prérequis</h3>
+
+<p>Afin de pouvoir utiliser le site, nous devons dans un premier temps cloner le projet.</p>
+
+   ```sh
+   git clone https://github.com/KevinAudibert/So_Pekocko.git
+   ```
