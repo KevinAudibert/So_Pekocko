@@ -46,7 +46,7 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 
 * [MongoDB Atlas](https://www.mongodb.com/try) (Base de donnée)
 
-:open_file_folder: <h3 id="doc">Documentation</h3>
+<h3 id="doc">Documentation</h3>
 
 <p>Lors de la réalisation du site, plusieurs régles ont dût être respectées. Ci-dessous les différents documents.</p>
 
