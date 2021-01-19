@@ -114,11 +114,11 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 |--------------------------|--------------------------------------------------|---------------|
 | bcrypt                   | Cryptage des mots de passe                       |[bcrypt](https://www.npmjs.com/package/bcrypt)|
 | body-parser              | Parse des données JSON                           |[body-parser](https://www.npmjs.com/package/body-parser)       |
-| dotenv                   | Sécurisation des données accès BDD               |       |
-| express                  | Framework pour application                       |       |
-| helmet                   | Sécurisation de l'application express            |       |
-| jsonwebtoken             | Création de TOKEN                                |       |
-| mongoose                 | Modélisation d'objets MongoDB                    |       |
-| mongoose-unique-validator| Validation de champs unique d'un Schéma Mongoose |       |
-| multer                   | Téléchargement de fichiers                       |       |
-| password-validator       | Valide Mot de passe selon spécifications         |       |
+| dotenv                   | Sécurisation des données accès BDD               |[dotenv](https://www.npmjs.com/package/dotenv)       |
+| express                  | Framework pour application                       |[express](https://www.npmjs.com/package/express)       |
+| helmet                   | Sécurisation de l'application express            |[helmet](https://www.npmjs.com/package/helmet)       |
+| jsonwebtoken             | Création de TOKEN                                |[jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)       |
+| mongoose                 | Modélisation d'objets MongoDB                    |[mongoose](https://www.npmjs.com/package/mongoose)       |
+| mongoose-unique-validator| Validation de champs unique d'un Schéma Mongoose |[mongoose-unique-validator](https://www.npmjs.com/package/mongoose-unique-validator)       |
+| multer                   | Téléchargement de fichiers                       |[multer](https://www.npmjs.com/package/multer)       |
+| password-validator       | Valide Mot de passe selon spécifications         |[password-validator](https://www.npmjs.com/package/password-validator)       |
