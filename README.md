@@ -8,7 +8,7 @@
   <summary>Sommaire</summary>
   <ol>
     <li>
-      <a href="#apropos">A propos du Site</a>
+      <a href="#apropos">À propos du Site</a>
       <ul>
         <li><a href="#outils">Outils utilisés</a></li>
         <li><a href="#doc">Documentation</a></li>
@@ -26,7 +26,7 @@
   </ol>
 </details>
 
-<h2 id="apropos" align="center">A propos du Site</h2>
+<h2 id="apropos" align="center">À propos du Site</h2>
 
 <p align="center"><img src="./images_readme/screen.jpg" width="900px"></p>
 
