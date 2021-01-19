@@ -57,8 +57,30 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 
 <h3 id="prerequis">Prérequis</h3>
 
-<p>Afin de pouvoir utiliser le site, nous devons dans un premier temps cloner le projet.</p>
+<p>Afin de pouvoir utiliser l'application, nous devons cloner le projet disponible sur GitHub vers le dossier de votre choix.</p>
 
    ```sh
    git clone https://github.com/KevinAudibert/So_Pekocko.git
    ```
+
+<h3 id="installation">Installation</h3>
+
+<p>Le projet contient plusieurs parties qui doivent être configurées pour le bon fonctionnement de l'application.</p>
+
+<h4>Frontend :</h4>
+
+1. Ciblage du dossier Frontend du projet
+    ```console
+    cd frontend
+    ```
+2. Installation des Packages NPM 
+   ```console
+   npm install
+   ```
+
+3. Démarrage du Server de développement
+   ```console
+   ng serve
+   ```
+
+   <h4>Backend :</h4>
