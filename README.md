@@ -126,6 +126,6 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 
 <h2 id="contact" align="center">Contact</h2>
 
-Adresse Email : [Kevin.audibert26@gmail.com](www.kevin.audibert26@gmail.com)
+Adresse Email : [Kevin.audibert26@gmail.com](mailto:kevin.audibert26@gmail.com)
 
 Lien du Projet: [https://github.com/KevinAudibert/So_Pekocko](https://github.com/KevinAudibert/So_Pekocko)
