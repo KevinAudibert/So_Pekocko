@@ -28,7 +28,7 @@
 
 <h2 id="apropos" align="center">A propos du Site</h2>
 
-<p align="center"><img src="./images_readme/site.jpg" width="900px"></p>
+<p align="center"><img src="./images_readme/screen.jpg" width="900px"></p>
 
 <p align="center">So Pekocko est une entreprise familiale de 10 salariés. Son activité principale est la création
 de sauces piquantes dont la composition est tenue secrète. Forte de son succès, l’entreprise
