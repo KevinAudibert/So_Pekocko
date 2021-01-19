@@ -110,10 +110,10 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 
 <h2 id="dependence">Dépendences NPM</h2></br>
 
-| Dependances NPM          | Description                                      | Notes |
-|--------------------------|--------------------------------------------------|-------|
-| bcrypt                   | Cryptage des mots de passe                       |       |
-| body-parser              | Parse des données JSON                           |       |
+| Dependances NPM          | Description                                      | Documentation |
+|--------------------------|--------------------------------------------------|---------------|
+| bcrypt                   | Cryptage des mots de passe                       |[bcrypt](https://www.npmjs.com/package/bcrypt)|
+| body-parser              | Parse des données JSON                           |[body-parser](https://www.npmjs.com/package/body-parser)       |
 | dotenv                   | Sécurisation des données accès BDD               |       |
 | express                  | Framework pour application                       |       |
 | helmet                   | Sécurisation de l'application express            |       |
