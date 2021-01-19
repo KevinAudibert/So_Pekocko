@@ -1,9 +1,7 @@
 <P align="center"><img src="https://user.oc-static.com/upload/2019/09/02/15674356878125_image2.png"  width="250px"/>
 </p>
-</br>
 
 <h1 align="center">So Pekocko - Projet 6</h1>
-
 <p align="center">Construire une API sécurisée pour une application d'avis gastronomique</p></br>
 
 <details open="open">
