@@ -64,7 +64,8 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
    git clone https://github.com/KevinAudibert/So_Pekocko.git
    ```
 
-:warning: Il sera necessaire de créer un fichier .env dans le dossier backend afin d'avoir accès à la BDD MongoDB.  
+:warning: 
+Il sera necessaire de créer un fichier .env dans le dossier backend afin d'avoir accès à la BDD MongoDB.  
 
 <h3 id="installation">Installation</h3>
 
