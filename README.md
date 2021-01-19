@@ -64,10 +64,22 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
    git clone https://github.com/KevinAudibert/So_Pekocko.git
    ```
 
-:warning: **WARNING** :warning:
+:warning: **Attention** :warning:
 ---
 
 Il sera necessaire de créer un fichier `.env` dans le dossier **backend** afin d'avoir accès à la Base de données **MongoDB**.
+
+Dans le fichier `.env`, il faudra coller une struture de code comme celle ci-dessou :
+
+   ```js
+  TOKEN_KEY=SecretKeyToken
+
+  DB_CLUSTER=ClusterName
+  DB_USER=UserName
+  DB_PASS=Password
+   ```
+
+Pour des raisons de sécurité, il faudra demander les codes pour avoir accès à la Base de données. [Cliquer ici](mailto:kevin.audibert26@gmail.com) :wink:
 
 <h3 id="installation">Installation</h3>
 
