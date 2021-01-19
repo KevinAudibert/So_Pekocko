@@ -23,6 +23,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#dependence">Dépendences NPM</li> 
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -44,6 +45,8 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 * [Angular CLI](https://github.com/angular/angular-cli) (version 7.0.2)
 
 * [Node.JS](https://nodejs.org/en/blog/release/v14.15.1/) (version 14.15.1)
+
+* [MongoDB Atlas](https://www.mongodb.com/try) (Base de donnée)
 
 <h3 id="doc">Documentation</h3>
 
@@ -69,18 +72,53 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 
 <h4>Frontend :</h4>
 
-1. Ciblage du dossier Frontend du projet
+1. Ouverture d'un Terminal depuis votre IDE
+    `Ctrl+Maj+ù`
+
+2. Ciblage du dossier Frontend du projet
     ```console
     cd frontend
     ```
-2. Installation des Packages NPM 
+3. Installation des Packages NPM 
    ```console
    npm install
    ```
 
-3. Démarrage du Server de développement
+4. Démarrage du Server de développement
    ```console
    ng serve
    ```
 
-   <h4>Backend :</h4>
+<h4>Backend :</h4>
+
+1. Ouverture d'un nouveau Terminal depuis votre IDE
+    `Ctrl+Maj+ù`
+
+2. Ciblage du dossier Backend du projet
+    ```console
+    cd backend
+    ```
+3. Installation des Packages NPM 
+   ```console
+   npm install
+   ```
+
+4. Démarrage du Server
+   ```console
+   nodemon server
+   ```
+
+<h2 id="dependence">Dépendences NPM</h2></br>
+
+| Dependances NPM          | Description                                      | Notes |
+|--------------------------|--------------------------------------------------|-------|
+| bcrypt                   | Cryptage des mots de passe                       |       |
+| body-parser              | Parse des données JSON                           |       |
+| dotenv                   | Sécurisation des données accès BDD               |       |
+| express                  | Framework pour application                       |       |
+| helmet                   | Sécurisation de l'application express            |       |
+| jsonwebtoken             | Création de TOKEN                                |       |
+| mongoose                 | Modélisation d'objets MongoDB                    |       |
+| mongoose-unique-validator| Validation de champs unique d'un Schéma Mongoose |       |
+| multer                   | Téléchargement de fichiers                       |       |
+| password-validator       | Valide Mot de passe selon spécifications         |       |
