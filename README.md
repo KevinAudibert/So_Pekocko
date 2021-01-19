@@ -79,7 +79,7 @@ Dans le fichier `.env`, il faudra coller une struture de code comme celle ci-des
   DB_PASS=Password
    ```
 
-Pour des raisons de sécurité, il faudra demander les codes pour avoir accès à la Base de données. [Cliquer ici](mailto:kevin.audibert26@gmail.com) :wink:
+Pour des raisons de sécurité, il faudra demander les variables _SecretKeyToken_, _ClusterName_, _UserName_ et _Password_ pour avoir accès à la Base de données. [Cliquer ici](mailto:kevin.audibert26@gmail.com) :wink:
 
 <h3 id="installation">Installation</h3>
 
