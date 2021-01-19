@@ -1,4 +1,4 @@
-<P align="center"><img src="https://user.oc-static.com/upload/2019/09/02/15674356878125_image2.png"  width="150px"/>
+<P align="center"><img src="https://user.oc-static.com/upload/2019/09/02/15674356878125_image2.png"  width="250px"/>
 </p>
 </br>
 
@@ -38,3 +38,18 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 </p>
 
 <h3 id="#outils">Outils utilisés</h3>
+
+<p>Pour réaliser ce site, nous avons utilisé différents outils afin qu'il soit fonctionnel côté Frontend comme côté Backend.</p>
+
+* [Angular CLI](https://github.com/angular/angular-cli) (version 7.0.2)
+
+* [Node.JS](https://nodejs.org/en/blog/release/v14.15.1/) (version 14.15.1)
+
+<h3 id="#doc">Documentation</h3>
+
+* [Cahier des charges](./images_readme/Guidelines+API.pdf)
+
+* [Note de cadrage](./images_readme/P6_Note_cadrage.pdf)
+
+<h2 id="demarrage">Démarrage</h2>
+
