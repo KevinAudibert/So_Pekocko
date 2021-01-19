@@ -37,15 +37,17 @@ souhaite se développer et créer une application web, dans laquelle les utilisa
 ajouter leurs sauces préférées et liker ou disliker les sauces proposées par les autres.
 </p>
 
-<h3 id="#outils">Outils utilisés</h3>
+<h3 id="outils">Outils utilisés</h3>
 
-<p>Pour réaliser ce site, nous avons utilisé différents outils afin qu'il soit fonctionnel côté Frontend comme côté Backend.</p>
+<p>Pour réaliser ce site, différents outils ont été utilisés afin qu'il soit fonctionnel côté Frontend comme côté Backend.</p>
 
 * [Angular CLI](https://github.com/angular/angular-cli) (version 7.0.2)
 
 * [Node.JS](https://nodejs.org/en/blog/release/v14.15.1/) (version 14.15.1)
 
 <h3 id="#doc">Documentation</h3>
+
+<p>Lors de la réalisation du site, plusieurs régles ont dût être respectées. Ci-dessous les différents documents.</p>
 
 * [Cahier des charges](./images_readme/Guidelines+API.pdf)
 
