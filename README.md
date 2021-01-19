@@ -65,7 +65,7 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
    ```
 
 :warning: 
-Il sera necessaire de créer un fichier `.env` dans le dossier **backend** afin d'avoir accès à la Base de données **MongoDB**.  
+<p>Il sera necessaire de créer un fichier `.env` dans le dossier **backend** afin d'avoir accès à la Base de données **MongoDB**.</p>
 
 <h3 id="installation">Installation</h3>
 
