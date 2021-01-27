@@ -19,6 +19,7 @@
       <ul>
         <li><a href="#prerequis">Prérequis</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#lancement">Lancement de l'Application</li>
       </ul>
     </li>
     <li><a href="#dependence">Dépendences NPM</li> 
@@ -36,7 +37,7 @@ souhaite se développer et créer une application web, dans laquelle les utilisa
 ajouter leurs sauces préférées et liker ou disliker les sauces proposées par les autres.
 </p>
 
-<h3 id="outils">Outils utilisés</h3>
+<h3 id="outils">&#x1F6E0 Outils utilisés</h3>
 
 <p>Pour réaliser ce site, différents outils ont été utilisés afin qu'il soit fonctionnel côté Frontend comme côté Backend.</p>
 
@@ -46,7 +47,7 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 
 * [MongoDB Atlas](https://www.mongodb.com/try) (Base de donnée)
 
-<h3 id="doc">Documentation</h3>
+<h3 id="doc">&#x1F4D4 Documentation</h3>
 
 <p>Lors de la réalisation du site, plusieurs régles ont dût être respectées. Ci-dessous les différents documents.</p>
 
@@ -56,7 +57,7 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
 
 <h2 id="demarrage" align="center">Démarrage</h2>
 
-<h3 id="prerequis">Prérequis</h3>
+<h3 id="prerequis">&#x1F6A7 Prérequis</h3>
 
 <p>Afin de pouvoir utiliser l'application, nous devons cloner le projet disponible sur GitHub vers le dossier de votre choix.</p>
 
@@ -64,7 +65,7 @@ ajouter leurs sauces préférées et liker ou disliker les sauces proposées par
    git clone https://github.com/KevinAudibert/So_Pekocko.git
    ```
 
-:warning: **Attention** :warning:
+&#x1F6A8; **Attention** &#x1F6A8;
 ---
 
 Il sera necessaire de créer un fichier `.env` dans le dossier **backend** afin d'avoir accès à la Base de données **MongoDB**.
@@ -79,9 +80,9 @@ Dans le fichier `.env`, il faudra coller une struture de code comme celle ci-des
   DB_PASS=Password
    ```
 
-Pour des raisons de sécurité, il faudra demander les variables _SecretKeyToken_, _ClusterName_, _UserName_ et _Password_ pour avoir accès à la Base de données. [Cliquer ici](mailto:kevin.audibert26@gmail.com) :wink:
+&#x26A0; Pour des raisons de sécurité, il faudra demander les variables _SecretKeyToken_, _ClusterName_, _UserName_ et _Password_ pour avoir accès à la Base de données. [Cliquer ici](mailto:kevin.audibert26@gmail.com) :key:
 
-<h3 id="installation">Installation</h3>
+<h3 id="installation">&#x2699 Installation</h3>
 
 <p>Le projet contient plusieurs parties qui doivent être configurées pour le bon fonctionnement de l'application.</p>
 
@@ -123,7 +124,13 @@ Pour des raisons de sécurité, il faudra demander les variables _SecretKeyToken
    nodemon server
    ```
 
-<h2 id="dependence" align="center">Dépendences NPM</h2></br>
+<h3 id="lancement">&#x1F6A6 Lancement Application</h3>
+
+Pour avoir accès au frontend de l'application, rendez-vous sur : 
+
+[http://localhost:4200/signup](http://localhost:4200/signup)
+
+<h2 id="dependence" align="center">&#x1F4E6 Dépendences NPM</h2></br>
 
 | Dependances NPM          | Description                                      | Documentation |
 |--------------------------|--------------------------------------------------|---------------|
@@ -139,7 +146,7 @@ Pour des raisons de sécurité, il faudra demander les variables _SecretKeyToken
 | password-validator       | Valide Mot de passe selon spécifications         |[password-validator](https://www.npmjs.com/package/password-validator)       |
 
 
-<h2 id="contact" align="center">Contact</h2>
+<h2 id="contact" align="center">&#x1F4C7 Contact</h2>
 
 Adresse Email : [Kevin.audibert26@gmail.com](mailto:kevin.audibert26@gmail.com)
 
