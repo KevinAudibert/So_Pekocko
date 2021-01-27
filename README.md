@@ -130,7 +130,7 @@ Pour avoir accès au frontend de l'application, rendez-vous sur :
 
 [http://localhost:4200/signup](http://localhost:4200/signup)
 
-<h2 id="dependence" align="center">&#x1F4E6 Dépendences NPM</h2></br>
+<h2 id="dependence" align="center">&#x1F4E6 Dépendences NPM &#x1F4E6</h2></br>
 
 | Dependances NPM          | Description                                      | Documentation |
 |--------------------------|--------------------------------------------------|---------------|
