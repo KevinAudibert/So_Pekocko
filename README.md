@@ -137,6 +137,7 @@ Pour avoir accès au frontend de l'application, rendez-vous sur :
 | bcrypt                   | Cryptage des mots de passe                       |[bcrypt](https://www.npmjs.com/package/bcrypt)|
 | body-parser              | Parse des données JSON                           |[body-parser](https://www.npmjs.com/package/body-parser)       |
 | dotenv                   | Sécurisation des données accès BDD               |[dotenv](https://www.npmjs.com/package/dotenv)       |
+| email-validator          | Valide adresse mail                              |[email-validator](https://www.npmjs.com/package/email-validator) |
 | express                  | Framework pour application                       |[express](https://www.npmjs.com/package/express)       |
 | helmet                   | Sécurisation de l'application express            |[helmet](https://www.npmjs.com/package/helmet)       |
 | jsonwebtoken             | Création de TOKEN                                |[jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)       |
