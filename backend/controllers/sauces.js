@@ -23,16 +23,18 @@ exports.createSauce = (req, res, next) => {
 };
 
 exports.modifySauce = (req, res, next) => {
-    Sauce.findOne({_id: req.params.id})
-    .then(sauce => {
-        const filename = sauce.imageUrl.split('/images/')[1];
-        fs.unlinkSync(`images/${filename}`) 
-    })
-    const sauceObject = req.file ? 
-    {
+    let sauceObject = {};
+    req.file ? (Sauce.findOne({_id: req.params.id})
+    .then((sauce) => {
+        const filename = sauce.imageUrl.split('/images/')[1]
+        fs.unlinkSync(`images/${filename}`)
+    }),
+    sauceObject = {
         ...JSON.parse(req.body.sauce),
-        imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
-    } : { ...req.body };
+        imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`,
+    }) : (sauceObject = {
+        ...req.body
+    })
     Sauce.updateOne({ _id: req.params.id }, { ...sauceObject, _id: req.params.id })
     .then(() => res.status(200).json({ message: 'Sauce modifiée !'}))
     .catch(error => res.status(400).json({ error: `Requête non authentifiée ! (error : ${error})` }));
