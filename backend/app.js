@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const mongoose = require ('mongoose');
 const helmet = require('helmet');
 const path = require('path');
+const rateLimit = require('express-rate-limit');
 
 const sauceRoutes = require('./routes/sauces');
 const userRoutes = require('./routes/user');
@@ -16,6 +17,11 @@ mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cl
 
 const app = express();
 
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, 
+    max: 100 
+  });
+
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content, Accept, Content-Type, Authorization');
@@ -25,6 +31,7 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.json());
 app.use(helmet());
+app.use(limiter);
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
 

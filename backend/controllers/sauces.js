@@ -1,6 +1,15 @@
 const Sauce = require('../models/Sauce');
 const fs = require('fs');
 
+function imageDelete(name) {
+    fs.unlink(`images/${name}`, function (e) {
+        if (e) {
+            throw e;
+        }
+    });
+    return true
+}
+
 exports.createSauce = (req, res, next) => {
     const sauceObject = JSON.parse(req.body.sauce);
     delete sauceObject._id;
@@ -12,8 +21,13 @@ exports.createSauce = (req, res, next) => {
     .then(() => res.status(201).json({ message: 'Sauce enregistrée !'}))
     .catch(error => res.status(400).json({ error: `Requête non authentifiée ! (error : ${error})` }));
 };
-  
+
 exports.modifySauce = (req, res, next) => {
+    Sauce.findOne({_id: req.params.id})
+    .then(sauce => {
+        const filename = sauce.imageUrl.split('/images/')[1];
+        fs.unlinkSync(`images/${filename}`) 
+    })
     const sauceObject = req.file ? 
     {
         ...JSON.parse(req.body.sauce),
@@ -23,7 +37,7 @@ exports.modifySauce = (req, res, next) => {
     .then(() => res.status(200).json({ message: 'Sauce modifiée !'}))
     .catch(error => res.status(400).json({ error: `Requête non authentifiée ! (error : ${error})` }));
 };
-  
+
 exports.deleteSauce = (req, res, next) => {
     Sauce.findOne({ _id: req.params.id })
     .then(sauce => {
